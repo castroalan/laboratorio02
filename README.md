@@ -82,3 +82,5 @@ git push origin master: sincronizar nuestros cambios en el local con el reposito
 #GIT PULL
 git pull: cuando hagamos cambios en nuestro repositorio remoto y para que se sincronice en el local.
 
+## QUE ES UN FORK
+operación usual en el sistema de Git que se encarga de la creación de una copia de un repositorio en la cuenta de usuario.
