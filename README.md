@@ -82,3 +82,5 @@ git push origin master: sincronizar nuestros cambios en el local con el reposito
 #GIT PULL
 git pull: cuando hagamos cambios en nuestro repositorio remoto y para que se sincronice en el local.
 
+## Video sobre 12 comandos utiles en git
+[12 comando utiles en git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj3x7PZ-4H-AhURFlkFHXzPDe0QwqsBegQICxAF&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DiT4UOkyI09k&usg=AOvVaw0yFiNHuMmTaqGtE08RkI0J)
