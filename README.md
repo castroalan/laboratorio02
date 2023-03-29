@@ -1,5 +1,9 @@
 #COMANDOS APRENDIDOS#
 
+#GIT
+Sistema de contro de control de versiones, es una herramienta fundamental para el desarrollo de cualquier proyecto.
+Permite mantener un historial de cambios en los archivos, evitar la pérdida de datos, facilitar la colaboración en equipo y mejorar la gestión de cambios en el proyecto.
+
 #ARCHIVOS BINARIOS Y ARCHIVOS DE TEXTO
 No es necesario hacer commit de archivos binarios debido a que pesan mucho.
 
@@ -20,6 +24,7 @@ git branch: visualizar las diferentes ramas o variaciones de la historia del pro
 
 #GIT CHECKOUT
 git checkout: sirve para cambiar la nueva rama, navegar en las diferentes ramas y al commit que deseo ir.
+git checkout -b: desde el punto donde yo estoy crea una rama y se pasa a la siguiente.
 
 #GIT MERGE
 git merge: sirve para fusionar la nueva rama con la rama principal del repositorio. Unir dos archivos de diferentes ramas.
@@ -50,6 +55,8 @@ Es una forma de solicitar que un colaborador revise y apruebe tus cambios, antes
 git revert: <ID del commit> esto creará un nuevo commit que deshace los cambios realizados en el commit anterior.
 Se trabaja en la misma rama, se regresan los cambios, lo que hay por delante queda en staging area para consolidar.
 
+git reset soft: suponiendo que deja de existir la ultima version.
+
 git reset: permite deshacer cambios sin crear un nuevo commit. Esto es útil si deseas deshacer varios cambios en un solo comando.
 
 git hard reset: los cambios se eliminan y es como si no existieron.
@@ -65,3 +72,7 @@ git diff <archivo>: mostrará las diferencias entre el archivo actual y su últi
 
 git diff <hash>: verificar una version especifica del archivo con la version actual.
 <hash> es el numero de identificacion del commit que contiene la version del archivo que se desea comparar.
+
+#GESTION DE MASTER
+Es la posibilidad de gestionar en una rama una linea independiente de desarrollo que se deriva de otra rama, normalmente la rama principal (también llamada "master" o "main").
+
