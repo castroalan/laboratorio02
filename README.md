@@ -76,3 +76,9 @@ git diff <hash>: verificar una version especifica del archivo con la version act
 #GESTION DE MASTER
 Es la posibilidad de gestionar en una rama una linea independiente de desarrollo que se deriva de otra rama, normalmente la rama principal (también llamada "master" o "main").
 
+#GIT PUSH ORIGIN MASTER
+git push origin master: sincronizar nuestros cambios en el local con el repositorio remoto
+
+#GIT PULL
+git pull: cuando hagamos cambios en nuestro repositorio remoto y para que se sincronice en el local.
+
