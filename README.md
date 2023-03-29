@@ -1,51 +1,51 @@
-#COMANDOS APRENDIDOS#
+## COMANDOS APRENDIDOS
 
-#GIT
+# GIT
 Sistema de contro de control de versiones, es una herramienta fundamental para el desarrollo de cualquier proyecto.
 Permite mantener un historial de cambios en los archivos, evitar la pérdida de datos, facilitar la colaboración en equipo y mejorar la gestión de cambios en el proyecto.
 
-#ARCHIVOS BINARIOS Y ARCHIVOS DE TEXTO
+# ARCHIVOS BINARIOS Y ARCHIVOS DE TEXTO
 No es necesario hacer commit de archivos binarios debido a que pesan mucho.
 
-#GIT INIT
+# GIT INIT
 git init: iniciará un nuevo repositorio, git en el directorio actual.
 
-#GIT ADD
+# GIT ADD
 git add: agrega los cambios de un archivo especifico
 
-#GIT ADD.
+# GIT ADD.
 git add.: agrega todos los cambios de los archivos.
 
-#GIT STATUS
+# GIT STATUS
 git status: ver los cambios que se han agregado
 
-#GIT BRANCH
+# GIT BRANCH
 git branch: visualizar las diferentes ramas o variaciones de la historia del producto.
 
-#GIT CHECKOUT
+# GIT CHECKOUT
 git checkout: sirve para cambiar la nueva rama, navegar en las diferentes ramas y al commit que deseo ir.
 git checkout -b: desde el punto donde yo estoy crea una rama y se pasa a la siguiente.
 
-#GIT MERGE
+# GIT MERGE
 git merge: sirve para fusionar la nueva rama con la rama principal del repositorio. Unir dos archivos de diferentes ramas.
 
-#STAGING
+# STAGING
 staging: carpeta local donde hacemos las modificaciones en el ambiente de desarrollo 
 
-#MERGE
+# MERGE
 cambiar a la rama de destino: primero se debe cambiar la rama del destino en la que se desean fusionar los cambios utilizando el comando git checkout y la rama del destino.
 
-#MERGE RESOLUCION DE CONFLICTOS
+# MERGE RESOLUCION DE CONFLICTOS
 El merge se puede hacer de forma automática o manual, si git detecta que no interfieren entre si el merge se realiará automáticamente.
 
-#PARA REGRESAR AL TIEMPO
+# PARA REGRESAR AL TIEMPO
 git checkout <ID del commit> para crear una rama desde una version anterior git branch <nombre de la nueva rama><ID del commit>
 
-#REPOSITORIO REMOTO
+# REPOSITORIO REMOTO
 git remoto add <nombre del repositorio> <URL del repositorio>
-REPOSITORIO REMOTO: es una version de tu proyecto que se encuentra alojada en un servidor remoto, en lugar de en tu computadora local.
-REPOSITORIO PUBLICO: ACCESO PARA CUALQUIERA.
-REPOSITORIO PRIVADO: ACCESO PARA LAS PERSONAS QUE YO DESEE.
+	-REPOSITORIO REMOTO: es una version de tu proyecto que se encuentra alojada en un servidor remoto, en lugar de en tu computadora local.
+	-REPOSITORIO PUBLICO: ACCESO PARA CUALQUIERA.
+	-REPOSITORIO PRIVADO: ACCESO PARA LAS PERSONAS QUE YO DESEE.
 Se pueden tener muchos repositorio de manera remota.
 
 #PETICION DE CAMBIOS (PULL REQUEST)
