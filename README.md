@@ -89,4 +89,11 @@ Es la posibilidad de gestionar en una rama una linea independiente de desarrollo
 ## GIT PULL
 `git pull`: cuando hagamos cambios en nuestro repositorio remoto y para que se sincronice en el local.
 
+<<<<<<< HEAD
+#Forks
+- Nos permite bifurcación a un punto especifico.
+- son utilies para proyectos de codigo abierto, permiten a los desarrolladores, contribuir al proyecto sin necesidad de tener permisos de escritura en el repositorio original.
+- Permite a los desarrolladores experimentar sin temor a dañar el repositorio original.
+=======
 
+>>>>>>> 89879b3adea2d69acc2b85aa94041d835c082dbd
