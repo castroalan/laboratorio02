@@ -82,3 +82,14 @@ git push origin master: sincronizar nuestros cambios en el local con el reposito
 #GIT PULL
 git pull: cuando hagamos cambios en nuestro repositorio remoto y para que se sincronice en el local.
 
+## Merge entre ramas y resolución de conflictos
+	*El merge se puede realizar de forma automática o manual.
+	*Si git detecta que los cambios en las dos ramas no interfieren entre sí el merge es automaticó.
+	*SI hay conflictos git pedira al usuario que los resuelva manualemnte antes de completar el merge
+## Gestión de Ramas
+Es la posibilidad de gestionar en una rama una línea independiente de desarrollo que se deriva de otra rama, nornalmente la rama principal (también llamada "master" o "main").
+
+## Subir cambios a remoto
+Para poder subir nuestro repositorio local a uno remoto priemro añadimos al repo remoto con **`git remote add origin <url_repo_remoto>`**,
+para subir todos los branches y sus cambios usamos **`git push --all origin`** , para que todas las branches usen automaticamente este repo
+remoto hacemos **`git push --all --set-upstream origin``**.
