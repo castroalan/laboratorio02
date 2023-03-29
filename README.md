@@ -1,4 +1,7 @@
-#Comandos Aprendidos 
+#COMANDOS APRENDIDOS#
+
+#ARCHIVOS BINARIOS Y ARCHIVOS DE TEXTO
+No es necesario hacer commit de archivos binarios debido a que pesan mucho.
 
 #GIT INIT
 git init: iniciará un nuevo repositorio, git en el directorio actual.
@@ -27,6 +30,38 @@ staging: carpeta local donde hacemos las modificaciones en el ambiente de desarr
 #MERGE
 cambiar a la rama de destino: primero se debe cambiar la rama del destino en la que se desean fusionar los cambios utilizando el comando git checkout y la rama del destino.
 
+#MERGE RESOLUCION DE CONFLICTOS
+El merge se puede hacer de forma automática o manual, si git detecta que no interfieren entre si el merge se realiará automáticamente.
+
 #PARA REGRESAR AL TIEMPO
 git checkout <ID del commit> para crear una rama desde una version anterior git branch <nombre de la nueva rama><ID del commit>
 
+#REPOSITORIO REMOTO
+git remoto add <nombre del repositorio> <URL del repositorio>
+REPOSITORIO REMOTO: es una version de tu proyecto que se encuentra alojada en un servidor remoto, en lugar de en tu computadora local.
+REPOSITORIO PUBLICO: ACCESO PARA CUALQUIERA.
+REPOSITORIO PRIVADO: ACCESO PARA LAS PERSONAS QUE YO DESEE.
+Se pueden tener muchos repositorio de manera remota.
+
+#PETICION DE CAMBIOS (PULL REQUEST)
+Es una forma de solicitar que un colaborador revise y apruebe tus cambios, antes de fusionarlos con la rama principal del proyecto. 
+
+#REVERTIR LOS CAMBIOS 
+git revert: <ID del commit> esto creará un nuevo commit que deshace los cambios realizados en el commit anterior.
+Se trabaja en la misma rama, se regresan los cambios, lo que hay por delante queda en staging area para consolidar.
+
+git reset: permite deshacer cambios sin crear un nuevo commit. Esto es útil si deseas deshacer varios cambios en un solo comando.
+
+git hard reset: los cambios se eliminan y es como si no existieron.
+
+#GIT LOG
+git log: sirve para ver todos los commit realizados.
+
+#GIT COMMIT -M
+git commit -m: funciona para realizar los comentarios de los cambios realizados, documentar cada uno de ellos.
+
+#GIT DIFF
+git diff <archivo>: mostrará las diferencias entre el archivo actual y su última versión guardada.
+
+git diff <hash>: verificar una version especifica del archivo con la version actual.
+<hash> es el numero de identificacion del commit que contiene la version del archivo que se desea comparar.
