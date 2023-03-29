@@ -1,5 +1,5 @@
 #COMANDOS APRENDIDOS#
-# cambios para fork -- Eliecer
+# cambios para fork -- Eliecer A
 #GIT
 Sistema de contro de control de versiones, es una herramienta fundamental para el desarrollo de cualquier proyecto.
 Permite mantener un historial de cambios en los archivos, evitar la pérdida de datos, facilitar la colaboración en equipo y mejorar la gestión de cambios en el proyecto.
